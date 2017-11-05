@@ -21,7 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<br />
+<hr />
 <p class="order-again">
 	<a href="<?php echo esc_url( wp_nonce_url( add_query_arg( 'order_again', $order->get_id() ) , 'woocommerce-order_again' ) ); ?>" class="btn add_to_cart_loop"><?php _e( 'Order again', 'woocommerce' ); ?></a>
 </p>
+<hr />
