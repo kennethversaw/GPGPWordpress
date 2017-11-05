@@ -63,7 +63,7 @@ msgstr ""
 
 #: includes/class-wc-gateway-stripe.php:172
 #: includes/legacy/class-wc-gateway-stripe.php:60
-msgid "Continue to payment"
+msgid "Continue"
 msgstr ""
 
 #: includes/class-wc-gateway-stripe.php:176
