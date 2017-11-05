@@ -3543,9 +3543,9 @@ a.goback:hover {
 .registration_event .woocommerce .products tr.product:first-child {border-top: 1px solid #ccc;}
 .registration_event .woocommerce .products tr.product{border-bottom: 1px solid #cccccc;}
 .registration_event .woocommerce .products td {padding: 5px;}
-.registration_event .woocommerce .qty {width: 40px;vertical-align: middle;}
+.registration_event .woocommerce .qty {vertical-align: middle;}
 .registration_event .woocommerce .description {text-align: left;}
-.registration_event .woocommerce .title{width: 15%;text-align: left;}
+.registration_event .woocommerce .title{text-align: left;}
 .registration_event .woocommerce .title h3 {  font-size: 18px !important;display: inline;font-weight: bold;}
 .registration_event .woocommerce form.cart {display: inline-block;}
 .registration_event .woocommerce tr .btn {padding: 5px 15px;}
@@ -3556,6 +3556,7 @@ a.goback:hover {
 .registration_event .woocommerce .quantity .qty {width:40px;text-align: center;}
 .registration_event .woocommerce .products th.price-th{text-align: left;}
 .registration_event .woocommerce .add_to_cart_loop{font-size: 1.1em;font-weight: bold;color: #FFF;display: block;margin: 5px;text-align: center;background: #F4422E;text-decoration: none;line-height: 43px;float: left;margin-top: 10px;border: 0;text-transform: uppercase;margin-top: 12px;float: right;line-height: 36px;font-size: 1em;}
+.floatLeft {float: left !important;}
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button{width:auto;}
 .woocommerce .cart .button, .woocommerce .cart input.button{width:auto;}
 .registration_event .woocommerce {overflow:hidden;}
