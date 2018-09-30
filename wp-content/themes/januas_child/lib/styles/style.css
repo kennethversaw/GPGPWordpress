@@ -3553,15 +3553,15 @@ a.goback:hover {
 .registration_event .woocommerce .short-description {display: inline;vertical-align: -webkit-baseline-middle;vertical-align: middle;font-size: 20px;}
 .registration_event .woocommerce .price {font-size: 18px;font-weight: bold;}
 .registration_event .woocommerce .products th:first-child{width: 50%;text-align: left;}
-/* .registration_event .woocommerce .quantity .qty {width:40px;text-align: center;} -- use this style to turn on the quantity */
-.registration_event .woocommerce .quantity .qty {width:40px;text-align: center; pointer-events: none; background-color: grey; cursor: not-allowed !important;}
+.registration_event .woocommerce .quantity .qty {width:40px;text-align: center;}/* -- use this style to turn on the quantity */
+/* .registration_event .woocommerce .quantity .qty {width:40px;text-align: center; pointer-events: none; background-color: grey; cursor: not-allowed !important;} -- use this to turn off registration */
 .registration_event .woocommerce .products th.price-th{text-align: left;}
-.registration_event .woocommerce .add_to_cart_loop{font-size: 1.1em;font-weight: bold;color: #FFF;display: block; pointer-events: none; cursor: not-allowed;
+/* .registration_event .woocommerce .add_to_cart_loop{font-size: 1.1em;font-weight: bold;color: #FFF;display: block; pointer-events: none; cursor: not-allowed;
     margin: 5px;text-align: center;background: grey;text-decoration: none;line-height: 43px;float: left;margin-top: 10px;
-    border: 0;text-transform: uppercase;margin-top: 12px;float: right;line-height: 36px;font-size: 1em;}
-/*.registration_event .woocommerce .add_to_cart_loop{font-size: 1.1em;font-weight: bold;color: #FFF;display:
+    border: 0;text-transform: uppercase;margin-top: 12px;float: right;line-height: 36px;font-size: 1em;} -- use this to turn off registration */
+.registration_event .woocommerce .add_to_cart_loop{font-size: 1.1em;font-weight: bold;color: #FFF;display:
      block;margin: 5px;text-align: center;background: #F4422E;text-decoration: none;line-height: 43px;float: left;margin-top: 10px;border: 0;text-transform: uppercase;margin-top: 12px;
-     float: right;line-height: 36px;font-size: 1em;} use this style when it is time to turn back on registration */
+     float: right;line-height: 36px;font-size: 1em;} /*     use this style when it is time to turn back on registration */
 .floatLeft {float: left !important;}
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button{width:auto;}
 .woocommerce .cart .button, .woocommerce .cart input.button{width:auto;}
